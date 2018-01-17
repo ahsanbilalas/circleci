@@ -1,6 +1,4 @@
-postgresql
-postgresql-contrib
-libpq-dev
+psycopg2
 django==1.11.7
 psycopg2==2.7.3.2
 djangorestframework
