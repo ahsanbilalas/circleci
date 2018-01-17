@@ -16,7 +16,8 @@ jobs:
       - image: circleci/postgres:9.4
         environment:
           POSTGRES_USER: ahsan
-          POSTGRES_DB: arbisoft 
+          POSTGRES_DB: circleci
+          POSTGRES_PASSWORD: arbisoft 
 
     working_directory: ~/repo
 
